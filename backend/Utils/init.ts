@@ -1,0 +1,2 @@
+export const createMeat = "CREATE TABLE IF NOT EXISTS `exam3`.`meat` (`id` INT NOT NULL AUTO_INCREMENT,`group_code` VARCHAR(45) NULL,`start_date` DATETIME NULL,`end_date` DATETIME NULL,`memo` VARCHAR(45) NULL,`room_name` VARCHAR(45) NULL,PRIMARY KEY (`id`))";
+export const createGroups = "CREATE TABLE IF NOT EXISTS `exam3`.`groups` (`id` INT NOT NULL AUTO_INCREMENT,`group_name` VARCHAR(45) NULL,PRIMARY KEY (`id`));";
